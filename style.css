@@ -54,7 +54,9 @@ header > nav > a:hover,
 header > nav > a:active {
   border-bottom: 3px solid #fff;
 }
-
+header > nav a.active {
+  border-bottom: 3px solid #fff;
+}
 body {
   font: "Roboto", "맑은 고딕", sans-serif;
 }
@@ -74,7 +76,9 @@ main ul li img {
 main .pet-list {
   display: flex;
   flex-wrap: wrap;
-}
+} /*flex=박스 , inline-flew=인라인  //  
+    flex=no-wrap < 기본 값(한 줄마다 표시)
+    flex=wrap <  플렉스 항목을 한 줄에 여러 개 표시  */
 main .pet-list .item {
   /* 칼럼의 크기 = 크기 -(여백 / 칼럼 수(칸 수)) */
   width: calc(50% - (15px / 2));
