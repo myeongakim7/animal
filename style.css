@@ -95,7 +95,7 @@ main .pet-list .item .name {
 /* 사진에 이름 배치 */
 main .pet-list .item {
   position: relative;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 main .pet-list .item .name {
   position: absolute;
